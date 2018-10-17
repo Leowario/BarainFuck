@@ -20,7 +20,7 @@ public class Interpreter {
                     new Context(commandPosition, contentPosition));
             commandPosition = context.getCommandPosition();
             contentPosition = context.getContentPosition();
-            commandStrategy.sateCommands.put(command,context);
+            commandStrategy.sateCommands.put(command, context);//TODO
         }
     }
 
