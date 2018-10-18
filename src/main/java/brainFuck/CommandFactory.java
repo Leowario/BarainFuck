@@ -1,6 +1,6 @@
 package brainFuck;
 
-import static brainFuck.SateCommand.*;
+import static brainFuck.StateCommand.*;
 
 public class CommandFactory {
     public static Command getCommand(char currentCommand) {

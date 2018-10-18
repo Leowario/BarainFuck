@@ -1,6 +1,6 @@
 package brainFuck;
 
-public enum SateCommand {
+public enum StateCommand {
     NEXTCELL('>'),
     PREVIOUSCELL('<'),
     INCREMENT('+'),
@@ -12,7 +12,7 @@ public enum SateCommand {
 
     private char value;
 
-    SateCommand(char value) {
+    StateCommand(char value) {
         this.value = value;
     }
 
